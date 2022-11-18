@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  color: black;
+  font-size: 19px;
+}
+
+main {
+  position: relative;
+}
+main .modal-overlay {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(236, 234, 231, 0.9);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+main .modal-overlay .modal-container {
+  width: 500px;
+  height: 130px;
+  border: 1px solid red;
+  background-color: bisque;
+  position: fixed;
+  top: 40%;
+  z-index: 8;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=toggle.css.map */
